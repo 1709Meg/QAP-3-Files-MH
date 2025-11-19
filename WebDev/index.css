@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.mainbox {
+  width: 1000px;
+
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/*  General classes for the page */
+.boldtext {
+  font-weight: 700;
+}
+
+.centertext {
+  text-align: center;
+}
+
+/* Styles for the receipt printed on the screen. */
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 2px;
+}
+
+/* Table to display Mo's Lawn Service. */
+.servicetable {
+  width: 350px;
+  margin: auto;
+}
+
+.servicetable .lefttext {
+  text-align: left;
+}
+
+.servicetable .righttext {
+  text-align: right;
+}
+
+.servicetable .centertext {
+  text-align: center;
+}
+
+.servicetable .orangeback {
+  background-color: orange;
+  text-align: left;
+  font-weight: 700;
+}
